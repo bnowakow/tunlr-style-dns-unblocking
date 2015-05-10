@@ -1586,6 +1586,22 @@
       "enabled":true
     },
     {
+      "name":"hbonow.com",
+      "dest_addr":"hbonow.com",
+      "modes":[
+        {
+          "port":80,
+          "mode":"http"
+        },
+        {
+          "port":443,
+          "mode":"https"
+        }
+      ],
+      "catchall":true,
+      "enabled":true
+    },
+    {
       "name":"www.hbo.com",
       "dest_addr":"www.hbo.com",
       "modes":[
